@@ -25,9 +25,18 @@ class ViewController: UIViewController, UITableViewDataSource{
         let cell = tableView.dequeueReusableCell(withIdentifier: "gyudonCell", for: indexPath)
 
         let gyudon = self.beefbowl[indexPath.row]
-        cell.textLabel?.text = gyudon.size
-        cell.detailTextLabel?.text = gyudon.price
-
+        
+        //sizeを表示
+        let labelSize = cell.viewWithTag(1) as! UILabel
+        labelSize.text = gyudon.size
+        
+        //priceを表示
+        let labelPrice = cell.viewWithTag(2) as! UILabel
+        labelPrice.text = gyudon.price
+        
+        //calorieを表示
+        let labelCalorie = cell.viewWithTag(3) as! UILabel
+        labelCalorie.text = gyudon.calorie
         return cell
     }
     
@@ -61,11 +70,18 @@ class ViewController: UIViewController, UITableViewDataSource{
                         prices.append(link.text ?? "")
                     }
                     
+                    //牛丼のカロリーをXpathで取得
+                    var calorie = [String]()
+                    for link in doc.xpath("//td[@class='menu-calorie']"){
+                        calorie.append(link.text ?? "")
+                    }
+                    
                     //牛丼のサイズ分だけループ
                     for (index, value) in sizes.enumerated(){
                         let gyudon = Gyudon()
                         gyudon.size = value
                         gyudon.price = prices[index]
+                        gyudon.calorie = calorie[index]
                         self.beefbowl.append(gyudon)
                     }
                     
@@ -84,5 +100,6 @@ class ViewController: UIViewController, UITableViewDataSource{
 class Gyudon: NSObject {
     var size: String = ""
     var price: String = ""
+    var calorie: String = ""
 }
 
