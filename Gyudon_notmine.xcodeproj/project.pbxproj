@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		076491F8E35402D983F2268C /* Pods_Gyudon_notmine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4AD7051812D6BEAAE179B47 /* Pods_Gyudon_notmine.framework */; };
+		CF86FB7B250C7B37006EBBC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF86FB7A250C7B37006EBBC4 /* AppDelegate.swift */; };
+		CF86FB7D250C7B37006EBBC4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF86FB7C250C7B37006EBBC4 /* SceneDelegate.swift */; };
+		CF86FB7F250C7B37006EBBC4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF86FB7E250C7B37006EBBC4 /* ViewController.swift */; };
+		CF86FB82250C7B37006EBBC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF86FB80250C7B37006EBBC4 /* Main.storyboard */; };
+		CF86FB84250C7B39006EBBC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF86FB83250C7B39006EBBC4 /* Assets.xcassets */; };
+		CF86FB87250C7B39006EBBC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF86FB85250C7B39006EBBC4 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0ECA1A4BE76C4EBD086DE548 /* Pods-Gyudon_notmine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gyudon_notmine.debug.xcconfig"; path = "Target Support Files/Pods-Gyudon_notmine/Pods-Gyudon_notmine.debug.xcconfig"; sourceTree = "<group>"; };
+		230881E59D95E206B77C62F3 /* Pods-Gyudon_notmine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gyudon_notmine.release.xcconfig"; path = "Target Support Files/Pods-Gyudon_notmine/Pods-Gyudon_notmine.release.xcconfig"; sourceTree = "<group>"; };
+		A4AD7051812D6BEAAE179B47 /* Pods_Gyudon_notmine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gyudon_notmine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF86FB77250C7B37006EBBC4 /* Gyudon_notmine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gyudon_notmine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF86FB7A250C7B37006EBBC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF86FB7C250C7B37006EBBC4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CF86FB7E250C7B37006EBBC4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CF86FB81250C7B37006EBBC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF86FB83250C7B39006EBBC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF86FB86250C7B39006EBBC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF86FB88250C7B39006EBBC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF86FB74250C7B37006EBBC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				076491F8E35402D983F2268C /* Pods_Gyudon_notmine.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2446599C60D4D1D4EBE68793 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0ECA1A4BE76C4EBD086DE548 /* Pods-Gyudon_notmine.debug.xcconfig */,
+				230881E59D95E206B77C62F3 /* Pods-Gyudon_notmine.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		829D3E1FECC15A58B304F7A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4AD7051812D6BEAAE179B47 /* Pods_Gyudon_notmine.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF86FB6E250C7B37006EBBC4 = {
+			isa = PBXGroup;
+			children = (
+				CF86FB79250C7B37006EBBC4 /* Gyudon_notmine */,
+				CF86FB78250C7B37006EBBC4 /* Products */,
+				2446599C60D4D1D4EBE68793 /* Pods */,
+				829D3E1FECC15A58B304F7A6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CF86FB78250C7B37006EBBC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF86FB77250C7B37006EBBC4 /* Gyudon_notmine.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF86FB79250C7B37006EBBC4 /* Gyudon_notmine */ = {
+			isa = PBXGroup;
+			children = (
+				CF86FB7A250C7B37006EBBC4 /* AppDelegate.swift */,
+				CF86FB7C250C7B37006EBBC4 /* SceneDelegate.swift */,
+				CF86FB7E250C7B37006EBBC4 /* ViewController.swift */,
+				CF86FB80250C7B37006EBBC4 /* Main.storyboard */,
+				CF86FB83250C7B39006EBBC4 /* Assets.xcassets */,
+				CF86FB85250C7B39006EBBC4 /* LaunchScreen.storyboard */,
+				CF86FB88250C7B39006EBBC4 /* Info.plist */,
+			);
+			path = Gyudon_notmine;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF86FB76250C7B37006EBBC4 /* Gyudon_notmine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF86FB8B250C7B39006EBBC4 /* Build configuration list for PBXNativeTarget "Gyudon_notmine" */;
+			buildPhases = (
+				A31E403080A5C5E632B893C6 /* [CP] Check Pods Manifest.lock */,
+				CF86FB73250C7B37006EBBC4 /* Sources */,
+				CF86FB74250C7B37006EBBC4 /* Frameworks */,
+				CF86FB75250C7B37006EBBC4 /* Resources */,
+				E7BABDC72E8D812F636A6E1A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gyudon_notmine;
+			productName = Gyudon_notmine;
+			productReference = CF86FB77250C7B37006EBBC4 /* Gyudon_notmine.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF86FB6F250C7B37006EBBC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = "Daichi Yoshikawa";
+				TargetAttributes = {
+					CF86FB76250C7B37006EBBC4 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+				};
+			};
+			buildConfigurationList = CF86FB72250C7B37006EBBC4 /* Build configuration list for PBXProject "Gyudon_notmine" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF86FB6E250C7B37006EBBC4;
+			productRefGroup = CF86FB78250C7B37006EBBC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF86FB76250C7B37006EBBC4 /* Gyudon_notmine */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF86FB75250C7B37006EBBC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF86FB87250C7B39006EBBC4 /* LaunchScreen.storyboard in Resources */,
+				CF86FB84250C7B39006EBBC4 /* Assets.xcassets in Resources */,
+				CF86FB82250C7B37006EBBC4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A31E403080A5C5E632B893C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Gyudon_notmine-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7BABDC72E8D812F636A6E1A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Gyudon_notmine/Pods-Gyudon_notmine-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Gyudon_notmine/Pods-Gyudon_notmine-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Gyudon_notmine/Pods-Gyudon_notmine-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF86FB73250C7B37006EBBC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF86FB7F250C7B37006EBBC4 /* ViewController.swift in Sources */,
+				CF86FB7B250C7B37006EBBC4 /* AppDelegate.swift in Sources */,
+				CF86FB7D250C7B37006EBBC4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CF86FB80250C7B37006EBBC4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF86FB81250C7B37006EBBC4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF86FB85250C7B39006EBBC4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF86FB86250C7B39006EBBC4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF86FB89250C7B39006EBBC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF86FB8A250C7B39006EBBC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF86FB8C250C7B39006EBBC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0ECA1A4BE76C4EBD086DE548 /* Pods-Gyudon_notmine.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7858FD9A4H;
+				INFOPLIST_FILE = Gyudon_notmine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "yossi.Gyudon-notmine";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF86FB8D250C7B39006EBBC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 230881E59D95E206B77C62F3 /* Pods-Gyudon_notmine.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7858FD9A4H;
+				INFOPLIST_FILE = Gyudon_notmine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "yossi.Gyudon-notmine";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF86FB72250C7B37006EBBC4 /* Build configuration list for PBXProject "Gyudon_notmine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF86FB89250C7B39006EBBC4 /* Debug */,
+				CF86FB8A250C7B39006EBBC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF86FB8B250C7B39006EBBC4 /* Build configuration list for PBXNativeTarget "Gyudon_notmine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF86FB8C250C7B39006EBBC4 /* Debug */,
+				CF86FB8D250C7B39006EBBC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF86FB6F250C7B37006EBBC4 /* Project object */;
+}

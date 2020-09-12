@@ -1,0 +1,6 @@
+framework module Pods_Gyudon_notmine {
+  umbrella header "Pods-Gyudon_notmine-umbrella.h"
+
+  export *
+  module * { export * }
+}
